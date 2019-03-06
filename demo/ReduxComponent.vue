@@ -10,13 +10,13 @@
 <script lang="ts">
 import Vue from 'vue';
 import { Prop, Component } from 'vue-property-decorator';
+import { Dispatch, Action } from 'redux';
 import {
   incrementAmount,
   decrementAmount,
   resetAmount,
   incrementCommand,
 } from './commands';
-import { Dispatch, Action } from 'redux';
 import { watch } from '../src/watch';
 import store from './store';
 import { connect } from '../src/connect-mixin';

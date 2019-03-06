@@ -32,6 +32,7 @@
     "@uxland/uxl-utilities": "^2.1.1",
     "ramda": "^0.26.1",
     "redux": "^4.0.1",
+    "reflect-metadata": "^0.1.13",
     "vue": "^2.6.8",
     "vue-mixin-decorator": "^1.1.0"
   },

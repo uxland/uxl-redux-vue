@@ -1,3 +1,7 @@
+import { isAsyncStateStale } from '../src/is-async-stale';
+
+console.log(isAsyncStateStale);
+
 export function increment() {
   return { type: 'INCREMENT' };
 }

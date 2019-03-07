@@ -18,6 +18,7 @@
     "vue"
   ],
   "devDependencies": {
+    "@types/date-fns": "^2.6.0",
     "@types/ramda": "^0.25.51",
     "@vue/cli-plugin-typescript": "^3.4.1",
     "@vue/cli-service": "^3.4.1",
@@ -30,8 +31,10 @@
   },
   "dependencies": {
     "@uxland/uxl-utilities": "^2.1.1",
+    "date-fns": "^2.0.0-alpha.27",
     "ramda": "^0.26.1",
     "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
     "reflect-metadata": "^0.1.13",
     "vue": "^2.6.8",
     "vue-mixin-decorator": "^1.1.0"

@@ -15,3 +15,4 @@ export * from './reset-store';
 export * from './resetable-reducer';
 export * from './unbind';
 export * from './watch';
+export * from './utilities';
